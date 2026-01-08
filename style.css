@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0a0e14;
+  color: #e5e7eb;
+}
+
+header {
+  background: #020617;
+  padding: 1rem;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem;
+}
+
+input {
+  flex: 1;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 0.7rem 1rem;
+  background: #1d4ed8;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.legend {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+}
+
+.crit { color: #ef4444; }
+.high { color: #f59e0b; }
+.elev { color: #eab308; }
+
+.card {
+  background: #020617;
+  margin: 0.75rem;
+  padding: 1rem;
+  border-radius: 12px;
+  border-left: 4px solid;
+}
+
+.CRITICAL { border-color: #ef4444; }
+.HIGH { border-color: #f59e0b; }
+.ELEVATED { border-color: #eab308; }
+
+footer {
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 1rem;
+  opacity: 0.6;
+}
