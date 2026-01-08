@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GeoIntel OSINT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>GeoIntel</h1>
+  <p>Early-Signal Geopolitical Intelligence (OSINT)</p>
+</header>
+
+<div class="controls">
+  <input id="search" placeholder="Search country, region, religion, topic…" />
+  <button onclick="loadIntel()">🔄 Fresh</button>
+</div>
+
+<div class="legend">
+  <span class="crit">CRITICAL</span>
+  <span class="high">HIGH</span>
+  <span class="elev">ELEVATED</span>
+</div>
+
+<section id="feed"></section>
+
+<footer>
+  <p>Open-Source Intelligence | No classified data</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
